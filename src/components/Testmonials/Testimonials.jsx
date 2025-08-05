@@ -6,6 +6,7 @@ import user1 from '../../assets/user-1.png';
 import user2 from '../../assets/user-2.png';
 import user3 from '../../assets/user-3.png';
 import user4 from '../../assets/user-4.png';
+import { Link } from 'react-scroll';
 
 const testimonialsData = [
   {
@@ -57,6 +58,7 @@ const Testimonials = () => {
   };
 
   return (
+    <Link name='testimonials'>
     <section className="testimonials">
         <p>TESTIMONIALS</p>
         <h2>What Student Says</h2>
@@ -88,7 +90,7 @@ const Testimonials = () => {
           <img src={next_icon} alt="Next" />
         </button>
       </div>
-    </section>
+    </section></Link>
   );
 };
 

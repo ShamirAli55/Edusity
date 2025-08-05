@@ -1,5 +1,6 @@
 nav
 {
+    overflow-x: hidden;
     width: 100%;
     display: flex;
     /* background-color: black; */
@@ -32,4 +33,51 @@ nav img
 {
     background-color: #212EA0;
     transition: 0.5s;
+}
+
+@media (min-width:1001px) {
+nav
+{
+    padding:1vw 5vw;
+    gap:9vw;
+}
+}
+@media (max-width:1000px) {
+    nav
+{
+    padding:1vw 5vw;
+    gap:10vw;
+}
+nav img
+{
+    height: 3vw;
+}
+.tags
+{
+    gap:3vw;
+}
+#contact
+{
+    padding: .8vw 2vw;
+    border-radius:100px;
+    white-space: nowrap;
+}
+
+
+}
+@media (max-width:872px) {
+nav
+{
+    padding:1vw 5vw;
+    gap:8vw;
+}
+
+}
+@media (max-width:836px) {
+nav
+{
+    padding:1vw 5vw;
+    gap:5vw;
+}
+
 }

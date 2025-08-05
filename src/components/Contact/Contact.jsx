@@ -5,6 +5,7 @@ import Location from '../../assets/location-icon.png'
 import Phone from '../../assets/phone-icon.png'
 import Message from '../../assets/msg-icon.png'
 import white_arrow from '../../assets/white-arrow.png'
+import { Link } from 'react-scroll'
 
 function Contact() {
 
@@ -33,7 +34,7 @@ function Contact() {
     }
   };
   return (
-    <>
+    <><Link name='contactt'>
         <div id="main">
             <p>Contact Us</p>
             <h2>Get in Touch</h2>
@@ -76,7 +77,7 @@ function Contact() {
                 </div>                
             </div>
             <span id='status'>{result}</span>
-        </div>
+        </div></Link>
     </>
   )
 }

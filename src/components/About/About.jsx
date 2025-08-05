@@ -2,10 +2,12 @@ import React from 'react'
 import './About.css'
 import Title from '../../assets/about.png'
 import play_icon from '../../assets/play-icon.png'
+import { Link } from 'react-scroll'
 
 function About() {
   return (
     <>
+    <Link name='about'>
         <main>
             <div className="about-section">
                 <div className="video-sec">
@@ -21,7 +23,7 @@ function About() {
                     Gallery</p>
                 </div>
             </div>
-        </main>
+        </main></Link>
     </> 
 )
 }
