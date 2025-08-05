@@ -29,7 +29,7 @@ const Navbar = () => {
             <Link to='testimonials' offset={-90}  smooth={true} duration={500}>Testimonials</Link>
             <Link to='contactt' offset={-30}  smooth={true} duration={500}  id="contact">Contact us</Link>
         </div>
-        <img src={Menu} alt="menu" className='menu-icon' onClick={ToggleMenu}/>
+        <img src={Menu} alt="menu" className='menu-icon' onClick={()=>ToggleMenu()}/>
     </nav>
   )
 }
