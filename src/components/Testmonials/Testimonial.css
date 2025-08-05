@@ -1,0 +1,83 @@
+
+.testimonials {
+  text-align: center;
+  padding: 40px;
+  max-width: 1000px;
+  margin: auto;
+  height:90vh;
+}
+.testimonials>p
+{
+    text-transform: uppercase;
+    color: rgb(9, 9, 152);
+    font-weight: 500;
+}
+.testimonials>h2
+{
+    font-weight:700;
+    font-size: 2.5vw;
+    padding-bottom: 10vw;
+    padding-top: 1vw;
+}
+
+.testimonial-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-container {
+  overflow: hidden;
+  width: 650px; /* fits 2 cards */
+}
+
+.testimonial-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.testimonial-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  width: 300px;
+  min-height: 250px;
+  margin: 0 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: left;
+  flex-shrink: 0;
+}
+
+.testimonial-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid #1d3fd4;
+  margin-bottom: 10px;
+}
+
+.location {
+  color: #666;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.arrow-btn {
+  background: #1d3fd4;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.arrow-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.arrow-btn:hover {
+  background: #1633a3;
+}

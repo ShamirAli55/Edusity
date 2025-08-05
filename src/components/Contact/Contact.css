@@ -1,0 +1,125 @@
+#main
+{
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+#main>p
+{
+    text-transform: uppercase;
+    color: rgb(9, 9, 152);
+    font-weight: 500;
+    padding: 5vw 0  1vw 0;
+}
+#main>h2
+{
+    font-weight:700;
+    font-size: 2.5vw;
+}
+#main .containr
+{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   padding-left: 13vw;
+   justify-content:center;
+}
+.left
+{
+    text-align: left;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    padding:0 0 2vw 2vw;
+}
+.left>p
+{
+    color: rgba(0, 0, 0, 0.559);
+}
+.info img
+{
+    height: 20px;
+}
+.info 
+{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.559);
+
+}
+#location
+{
+    height:30px !important;
+}
+.message
+{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.message>h3
+{
+    font-weight: 500;
+    font-size: 2vw;
+}
+#main .containr .left .message img
+{
+    height: 30px;
+}
+.right
+{
+width: 50%;
+padding:7vw 10vw 1vw 0;
+}
+.right form
+{
+    text-align: start;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap:10px;
+}
+.right form>input
+{
+    padding:1vw;
+    outline: none;
+    border: none;
+    background-color: #EBECFE;
+    border-radius: 10px;
+}
+.right form>textarea
+{
+    background-color: #EBECFE;
+    outline: none;
+    width: 400px;   
+    min-width: 400px; 
+    max-width: 400px; 
+    resize: none;  
+}
+.right  form>button 
+{
+    font-size:1.3vw;
+    background-color: #212EA0;
+    padding: 1vw 2vw;
+    border-radius: 100px;
+    border: 1px solid;
+    color: white;
+    width: fit-content;
+    margin-top: 2vw;
+    cursor: pointer;
+}
+.right form>button img
+{
+    height:10px;
+    margin:0 .3vw;
+}
+#status
+{
+    display: block;
+    position: absolute;
+    right:36%;
+    bottom:-3%;
+}

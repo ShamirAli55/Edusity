@@ -1,0 +1,35 @@
+nav
+{
+    width: 100%;
+    display: flex;
+    /* background-color: black; */
+    background-color: transparent;
+    color: white;
+    align-items: center;
+    padding:1vw 10vw;
+    gap:12.1vw;
+    position: fixed;
+    z-index: 999;
+}
+nav img
+{
+    height: 3vw;
+}
+.tags
+{
+    display: flex;
+    align-items: center;
+    gap:3.5vw;
+}
+#contact
+{
+    color: #000;
+    padding: .8vw 2vw;
+    border-radius:100px;
+    background-color: white;
+}
+.dark-nav
+{
+    background-color: #212EA0;
+    transition: 0.5s;
+}

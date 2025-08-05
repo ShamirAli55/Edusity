@@ -1,0 +1,53 @@
+main
+{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 2vw 13vw;
+}
+.video-sec
+{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+}
+.video-sec img
+{
+    height: 350px;
+    border-radius: 10px;
+    position: absolute;
+    top:10%;
+}
+.video-sec #icon
+{
+    position: absolute;
+    height: 60px;
+    top:30%;
+    left:25%;
+    cursor: pointer;
+}
+.ab-right
+{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    right: 6%;
+    padding:0 2vw;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.ab-right>h3
+{
+    text-transform: uppercase;
+    color: rgb(9, 9, 152);
+    font-weight: 500;
+}
+.ab-right>h2
+{
+    font-size:3vw;
+}
+.ab-right>p
+{
+    color: rgba(0, 0, 0, 0.486);
+}

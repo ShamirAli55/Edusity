@@ -1,0 +1,27 @@
+footer
+{
+    height:12vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 13vw;
+}
+.line
+{
+    height: 5%;
+    border-top: 1px solid;
+    margin:0 10vw;
+    margin-top: 10vw;
+}
+footer #left
+{
+    height: 50%;
+}
+footer #right
+{
+    height: 50%;
+    display: flex;
+    gap:20px;
+}
+

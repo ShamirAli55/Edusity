@@ -1,0 +1,77 @@
+.main
+{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.main>p
+{
+    text-transform: uppercase;
+    color: rgb(9, 9, 152);
+    font-weight: 500;
+    padding: 5vw 0  1vw 0;
+}
+.main>h2
+{
+    font-weight:700;
+    font-size: 2.5vw;
+}
+.main .card-container
+{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2vw;
+    padding-top:7vw;
+    cursor: pointer;
+}
+.card
+{
+    height: 100%;
+    width:25%;
+    position: relative;
+    overflow: hidden;
+    transition: all ease-in-out 0.3s;
+}
+.card-container .card img
+{
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.overlay
+{
+    height:78%;
+    width: 94%;
+    position:relative;
+    /* background-color: rgba(255, 0, 0, 0.518); */
+    top:-79%;
+    border-radius: 10px;
+    left: 3%;
+    transition: all ease-in 0.3s;
+    opacity: 0;
+}
+.overlay img
+{
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+    padding: 8vw;
+    opacity: 0;
+    margin-top: 4vw;
+}
+.card:hover .overlay
+{
+    opacity: 1;
+    background-color: rgba(8, 0, 58, 0.484);
+}
+.card:hover .overlay img
+{
+    opacity: 1;
+    margin-top: 0;
+}
